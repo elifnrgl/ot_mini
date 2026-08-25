@@ -3,31 +3,20 @@
 ot_mini, gömülü sistemler ve IoT geliştirme süreçlerinde hafif, taşınabilir ve pratik bir simülasyon ortamı sunmak amacıyla geliştirilmiş minimal bir OpenThread CLI (Command Line Interface) ve C/C++ tabanlı yardımcı kütüphane projesidir. WSL (Ubuntu) ortamında geliştirilmiş olup, ağ yığınları, veri kümeleri ve komut satırı arayüzü bileşenlerinin temel mantığını anlamak ve test etmek için tasarlanmıştır.
 
 
+🚀 Özellikler
+Minimal OpenThread Komut Satırı Arayüzü (CLI): dataset, ifconfig, thread, state, ipaddr, ipmaddr, netdata, ping, ve coap gibi temel OpenThread komutlarının hafifletilmiş simülasyonu.
 
-ot_mini/
-│
-├── include/                 # Başlık dosyaları (Header files)
-│   ├── cli_dataset.h        # Dataset komut satırı arayüzü tanımları
-│   ├── coap.h               # CoAP protokol başlık dosyası
-│   ├── dataset.h            # Ağ veri kümesi yapıları ve metotları
-│   ├── hex.h                # Hex dönüşüm yardımcı araçları
-│   ├── ip6.h                # IPv6 adresleme ve paket yapıları
-│   ├── netdata.h            # Network Data yapıları
-│   ├── tlv.h                # TLV (Type-Length-Value) çözümleyici
-│   └── udp.h                # UDP başlık tanımları
-│
-├── src/                     # Kaynak kod dosyaları (Source files)
-│   ├── cli_coap.cpp         # CoAP CLI komut işleyicileri
-│   ├── cli_dataset.cpp      # Dataset CLI komut işleyicileri
-│   ├── cli_ip6.cpp          # IPv6 CLI komut işleyicileri
-│   ├── cli_netdata.cpp      # Network Data CLI komut işleyicileri
-│   ├── cli_ping.cpp         # Ping komut işleyicisi
-│   ├── cli_thread.cpp       # Thread ağ durumu komutları
-│   ├── cli_udp.cpp          # UDP CLI komut işleyicileri
-│   └── dataset.cpp          # Dataset mantıksal implementasyonu
-│
-├── .vscode/                 # VS Code yapılandırma dosyaları (tasks, launch vb.)
-└── README.md                # Proje dokümantasyonu
+Modüler Modeller ve Sürücüler:
+
+Ağ veri kümesi yönetimi (dataset.h / .cpp)
+
+CoAP protokol desteği (coap.h, cli_coap.cpp)
+
+IPv6 ve UDP haberleşme katmanları (ip6.h, udp.h)
+
+Ağ veri tabloları ve ping işlevleri (netdata.h, cli_ping.cpp)
+
+Geliştirici Dostu Yapı: VS Code ve WSL (Ubuntu) entegrasyonu ile kolay derleme ve hata ayıklama (GDB) desteği.
 
 Derleme ve Çalıştırma Adımları
 Projeyi klonla veya terminal üzerinden proje dizinine git:
