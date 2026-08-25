@@ -13,7 +13,9 @@ Done
 
 get
 
-> coap get fd59:f2e8:e2f1:a2ca:15e7:c4bd:be61:f7e0 test-resource
+> coap get fd59:f2e8:e2f1:a2ca:15e7:c4bd:be61:f7e0 test-resource  
+
+(test resource içerigini hex biçimde gösterir)
 
 Done
 
