@@ -1,26 +1,44 @@
 >netdata publish prefix <prefix> [bayraklar] [tercih]
+
 Ağa yeni bir IPv6 öneki (prefix) duyurur.
+
 Bayraklar (İsteğe bağlı): p, a, d, c, r, o, s, n harflerinden oluşabilir.
 
+
 >netdata publish route <prefix> [bayraklar] [tercih]
+
 Ağa harici bir yönlendirme (route) bilgisi duyurur.
+
 Bayraklar (İsteğe bağlı): Yalnızca s, n, a harflerinden oluşabilir.
+
 Tercih (İsteğe bağlı): high, med, low.
 
+
 >netdata unpublish <prefix>
+
 Belirtilen IPv6 önekini (prefix) veya rotayı yerel ağ verisinden siler/yayından kaldırır.
 
+
 >netdata show local
+
 Cihazın kendi yayınladığı yerel ağ verilerini (prefix ve route'ları) okunabilir bir formatta ekrana basar.
+
 >netdata show local -x
+
 Aynı veriyi Hex (Onaltılık) formatta (ham TLV veri yapısı olarak) gösterir.
 
+
 >netdata length
+
 Yerel ağ verisinin şu anki güncel boyutunu bayt (byte) cinsinden verir
+
 >netdata maxlength
+
 Cihaz çalıştığından beri ağ verisinin ulaştığı en yüksek (maksimum) boyutu bayt cinsinden gösterir.
 
+
 >netdata maxlength reset
+
 Kaydedilen bu maksimum boyut rekorunu sıfırlar ve o anki boyuta eşitler.
 
 Bayraklar:
