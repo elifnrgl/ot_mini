@@ -34,6 +34,7 @@ Bash
 
 
 💻 Kullanım
+
 Uygulama çalıştığında karşına >  şeklinde bir komut satırı arayüzü gelecektir. Desteklenen komutlardan bazıları:
 
 dataset — Aktif ağ veri kümesini görüntüler veya yapılandırır.
@@ -49,4 +50,5 @@ ping <ipv6_adresi> — Belirtilen adrese ICMPv6 ping isteği gönderir.
 exit — CLI oturumunu sonlandırır.
 
 📜 Lisans
+
 Bu proje kişisel ve akademik geliştirme çalışmaları kapsamında oluşturulmuştur.
