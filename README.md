@@ -4,7 +4,9 @@ ot_mini, gömülü sistemler ve IoT geliştirme süreçlerinde hafif, taşınabi
 
 
 🚀 Özellikler
-Minimal OpenThread Komut Satırı Arayüzü (CLI): dataset, ifconfig, thread, state, ipaddr, ipmaddr, netdata, ping, ve coap gibi temel OpenThread komutlarının hafifletilmiş simülasyonu.
+
+Minimal OpenThread Komut Satırı Arayüzü (CLI): dataset, ifconfig, thread, state, ipaddr, ipmaddr, netdata, ping, ve coap gibi 
+temel OpenThread komutlarının hafifletilmiş simülasyonu.
 
 Modüler Modeller ve Sürücüler:
 
@@ -19,14 +21,19 @@ Ağ veri tabloları ve ping işlevleri (netdata.h, cli_ping.cpp)
 Geliştirici Dostu Yapı: VS Code ve WSL (Ubuntu) entegrasyonu ile kolay derleme ve hata ayıklama (GDB) desteği.
 
 Derleme ve Çalıştırma Adımları
+
 Projeyi klonla veya terminal üzerinden proje dizinine git:
 
 Bash
+
 cd ~/ot_mini_3/ot_mini
+
 Kaynak kodları derle (manuel derleme için örnek komut):
 
 Bash
+
 g++ -std=c++11 src/*.cpp -Iinclude -o ot_mini_exec
+
 Çalıştırılabilir dosyayı başlat:
 
 Bash
