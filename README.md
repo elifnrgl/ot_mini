@@ -1,6 +1,6 @@
 # ot_mini
 
-ot_mini, gömülü sistemler ve IoT geliştirme süreçlerinde hafif, taşınabilir ve pratik bir simülasyon ortamı sunmak amacıyla geliştirilmiş minimal bir OpenThread CLI (Command Line Interface) ve C/C++ tabanlı yardımcı kütüphane projesidir. WSL (Ubuntu) ortamında geliştirilmiş olup, ağ yığınları, veri kümeleri ve komut satırı arayüzü bileşenlerinin temel mantığını anlamak ve test etmek için tasarlanmıştır.
+ot_mini, WSL (Ubuntu) ortamında geliştirilmiş olup, ağ yığınları, veri kümeleri ve komut satırı arayüzü bileşenlerinin temel mantığını anlamak ve test etmek için tasarlanmıştır.
 
 
 🚀 Özellikler
